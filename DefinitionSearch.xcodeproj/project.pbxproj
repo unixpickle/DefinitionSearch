@@ -13,6 +13,15 @@
 		FA244A6716DA809300D7B781 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FA244A6516DA809300D7B781 /* Credits.rtf */; };
 		FA244A6A16DA809300D7B781 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA244A6916DA809300D7B781 /* ANAppDelegate.m */; };
 		FA244A6D16DA809300D7B781 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA244A6B16DA809300D7B781 /* MainMenu.xib */; };
+		FA244A7D16DAA88800D7B781 /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA244A7C16DAA88800D7B781 /* dictionary.txt */; };
+		FA244A7F16DAB89200D7B781 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA244A7E16DAB89200D7B781 /* Carbon.framework */; };
+		FA244A8216DABDE600D7B781 /* ANPreferencesWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FA244A8116DABDE600D7B781 /* ANPreferencesWindow.m */; };
+		FA244A8A16DABE0600D7B781 /* ANDictionaryIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = FA244A8516DABE0600D7B781 /* ANDictionaryIndex.m */; };
+		FA244A8B16DABE0600D7B781 /* ANDictionaryIndexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA244A8716DABE0600D7B781 /* ANDictionaryIndexManager.m */; };
+		FA244A8C16DABE0600D7B781 /* ANSQLite3Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA244A8916DABE0600D7B781 /* ANSQLite3Manager.m */; };
+		FA244A8E16DAC2D300D7B781 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA244A8D16DAC2D300D7B781 /* libsqlite3.0.dylib */; };
+		FA244A9016DAE01B00D7B781 /* index.db in Resources */ = {isa = PBXBuildFile; fileRef = FA244A8F16DADFBA00D7B781 /* index.db */; };
+		FA244A9216DAE4FD00D7B781 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = FA244A9116DAE4FD00D7B781 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +38,19 @@
 		FA244A6816DA809300D7B781 /* ANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAppDelegate.h; sourceTree = "<group>"; };
 		FA244A6916DA809300D7B781 /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
 		FA244A6C16DA809300D7B781 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FA244A7C16DAA88800D7B781 /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
+		FA244A7E16DAB89200D7B781 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		FA244A8016DABDE600D7B781 /* ANPreferencesWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANPreferencesWindow.h; sourceTree = "<group>"; };
+		FA244A8116DABDE600D7B781 /* ANPreferencesWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANPreferencesWindow.m; sourceTree = "<group>"; };
+		FA244A8416DABE0600D7B781 /* ANDictionaryIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDictionaryIndex.h; sourceTree = "<group>"; };
+		FA244A8516DABE0600D7B781 /* ANDictionaryIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDictionaryIndex.m; sourceTree = "<group>"; };
+		FA244A8616DABE0600D7B781 /* ANDictionaryIndexManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDictionaryIndexManager.h; sourceTree = "<group>"; };
+		FA244A8716DABE0600D7B781 /* ANDictionaryIndexManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDictionaryIndexManager.m; sourceTree = "<group>"; };
+		FA244A8816DABE0600D7B781 /* ANSQLite3Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSQLite3Manager.h; sourceTree = "<group>"; };
+		FA244A8916DABE0600D7B781 /* ANSQLite3Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSQLite3Manager.m; sourceTree = "<group>"; };
+		FA244A8D16DAC2D300D7B781 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		FA244A8F16DADFBA00D7B781 /* index.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = index.db; sourceTree = "<group>"; };
+		FA244A9116DAE4FD00D7B781 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA244A8E16DAC2D300D7B781 /* libsqlite3.0.dylib in Frameworks */,
+				FA244A7F16DAB89200D7B781 /* Carbon.framework in Frameworks */,
 				FA244A5716DA809300D7B781 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +87,8 @@
 		FA244A5516DA809300D7B781 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA244A8D16DAC2D300D7B781 /* libsqlite3.0.dylib */,
+				FA244A7E16DAB89200D7B781 /* Carbon.framework */,
 				FA244A5616DA809300D7B781 /* Cocoa.framework */,
 				FA244A5816DA809300D7B781 /* Other Frameworks */,
 			);
@@ -82,8 +108,11 @@
 		FA244A5C16DA809300D7B781 /* DefinitionSearch */ = {
 			isa = PBXGroup;
 			children = (
+				FA244A8316DABE0600D7B781 /* Indexer */,
 				FA244A6816DA809300D7B781 /* ANAppDelegate.h */,
 				FA244A6916DA809300D7B781 /* ANAppDelegate.m */,
+				FA244A8016DABDE600D7B781 /* ANPreferencesWindow.h */,
+				FA244A8116DABDE600D7B781 /* ANPreferencesWindow.m */,
 				FA244A6B16DA809300D7B781 /* MainMenu.xib */,
 				FA244A5D16DA809300D7B781 /* Supporting Files */,
 			);
@@ -93,6 +122,9 @@
 		FA244A5D16DA809300D7B781 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA244A9116DAE4FD00D7B781 /* icon.icns */,
+				FA244A8F16DADFBA00D7B781 /* index.db */,
+				FA244A7C16DAA88800D7B781 /* dictionary.txt */,
 				FA244A5E16DA809300D7B781 /* DefinitionSearch-Info.plist */,
 				FA244A5F16DA809300D7B781 /* InfoPlist.strings */,
 				FA244A6216DA809300D7B781 /* main.m */,
@@ -100,6 +132,19 @@
 				FA244A6516DA809300D7B781 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA244A8316DABE0600D7B781 /* Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				FA244A8416DABE0600D7B781 /* ANDictionaryIndex.h */,
+				FA244A8516DABE0600D7B781 /* ANDictionaryIndex.m */,
+				FA244A8616DABE0600D7B781 /* ANDictionaryIndexManager.h */,
+				FA244A8716DABE0600D7B781 /* ANDictionaryIndexManager.m */,
+				FA244A8816DABE0600D7B781 /* ANSQLite3Manager.h */,
+				FA244A8916DABE0600D7B781 /* ANSQLite3Manager.m */,
+			);
+			path = Indexer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +202,9 @@
 				FA244A6116DA809300D7B781 /* InfoPlist.strings in Resources */,
 				FA244A6716DA809300D7B781 /* Credits.rtf in Resources */,
 				FA244A6D16DA809300D7B781 /* MainMenu.xib in Resources */,
+				FA244A7D16DAA88800D7B781 /* dictionary.txt in Resources */,
+				FA244A9016DAE01B00D7B781 /* index.db in Resources */,
+				FA244A9216DAE4FD00D7B781 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +217,10 @@
 			files = (
 				FA244A6316DA809300D7B781 /* main.m in Sources */,
 				FA244A6A16DA809300D7B781 /* ANAppDelegate.m in Sources */,
+				FA244A8216DABDE600D7B781 /* ANPreferencesWindow.m in Sources */,
+				FA244A8A16DABE0600D7B781 /* ANDictionaryIndex.m in Sources */,
+				FA244A8B16DABE0600D7B781 /* ANDictionaryIndexManager.m in Sources */,
+				FA244A8C16DABE0600D7B781 /* ANSQLite3Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +356,7 @@
 				FA244A7216DA809300D7B781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
